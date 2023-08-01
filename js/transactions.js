@@ -88,3 +88,24 @@ function getTransactions() {
 function saveData(data){
     localStorage.setItem(data.login, JSON.stringify(data));
 }
+
+function limpar(data) {
+    data.transactions = [];
+    saveData(data);
+    getTransactions();
+}
+
+function exibirLimpar() {
+
+    var resposta = window.confirm("Você deseja limpar todos os itens da lista?");
+
+    if (resposta) {
+
+      limpar(data);
+
+    } else {
+
+        window.location.href = "transactions.html";
+
+    }
+}

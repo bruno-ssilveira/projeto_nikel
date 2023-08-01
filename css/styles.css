@@ -69,9 +69,26 @@ header {
     padding: 0 !important;
 }
 
-.button-float:hover {
-    background-color: #6cff67;
+.button-float-limpar {
+    position: fixed;
+    width: 15rem;
+    border-radius: 2.5rem;
+    bottom: 1rem;
+    left: 2rem;
+    font-size: 25px;
+    background-color: #4e0070;
     color: #FFFFFF;
+    padding: 0 !important;
+}
+
+.button-float:hover {
+    background: #FFFFFF;
+    color: #4c79d3;  
+}
+
+.button-float-limpar:hover {
+    background: #4c79d3;
+    color: #FFFFFF;    
 }
 
 .button-login:hover, .button-default:hover {
