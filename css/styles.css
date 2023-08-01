@@ -70,8 +70,8 @@ header {
 }
 
 .button-float:hover {
-    background-color: #FFFFFF;
-    color: #4c79d3;
+    background-color: #6cff67;
+    color: #FFFFFF;
 }
 
 .button-login:hover, .button-default:hover {
